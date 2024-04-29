@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 10% 3% 10%;
+}
+
+nav .ul-list{
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav .navigation ul li a{
+    color: green;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    
+}
+
+.toprod ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.toprod{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 3% 1% 3%;
+    background-color: green;
+}
+
+.toprod,a{
+    color: white;
+}
+
+.lower-gap{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.toprod .reseaux i{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.toprod .contact a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.toprod .contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(medias/image_touristique_gb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    width: 25rem;
+}
+
+.navigation{
+    align-items: center;
+}
+
+.rond{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation ul .rond a{
+    color: green;
+}
+
+.ul-list{
+    align-items: center;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.header h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.header p{
+    color: white;
+    padding: 10px;
+}
+
+.header li{
+    margin: auto;
+    background-color: green;
+    width: 10%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.header li a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 18rem;
+    }
+
+    nav{
+        padding: 10px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    /* Ajoutez ceci à votre règle CSS */
+    nav .ul-list {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column; /* Afficher les éléments en colonne */
+        background-color: rgba(0, 0, 0, 0.5); /* Fond gris noir avec 50% d'opacité */
+        padding: 10px; /* Ajoutez un peu d'espacement */
+    }
+
+    
+    nav .ul-list li {
+        margin-bottom: 10px; /* Ajoutez un espacement entre chaque élément de la liste */
+    }
